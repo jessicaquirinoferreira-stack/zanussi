@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #0f172a;
+  --color-secondary: #10b981;
+}
+
+body {
+  @apply font-sans bg-gray-50 text-gray-900 antialiased;
+}
+
+.whatsapp-float {
+  @apply fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center;
+}
+
+.section-padding {
+  @apply py-16 md:py-24 px-6 max-w-7xl mx-auto;
+}
+
+.btn-primary {
+  @apply bg-secondary hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 text-center uppercase tracking-wider text-sm;
+}
+
+.btn-outline {
+  @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-4 px-8 rounded-lg transition-all duration-200 text-center uppercase tracking-wider text-sm;
+}
+
+.card-service {
+  @apply bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center space-y-4 hover:-translate-y-2;
+}
+
+@keyframes pulse-soft {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s infinite ease-in-out;
+}
