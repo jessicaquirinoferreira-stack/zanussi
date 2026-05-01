@@ -11,11 +11,14 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-bottom border-gray-100">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="p-2 bg-primary rounded-lg text-white">
-            <Shield size={24} />
-          </div>
-          <span className="text-xl font-bold tracking-tight text-primary uppercase">Zanussi Consultoria</span>
+        <div className="flex items-center gap-3">
+          <img 
+            src="https://i.imgur.com/JQ5HumM.png" 
+            alt="Zanussi Corretora" 
+            className="h-10 w-auto object-contain"
+            referrerPolicy="no-referrer"
+          />
+          <span className="text-xl font-extrabold tracking-tight text-primary uppercase">Zanussi Corretora</span>
         </div>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">

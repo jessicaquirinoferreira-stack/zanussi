@@ -14,10 +14,12 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import ConversionBalloon from './components/ConversionBalloon';
 import AIConsultant from './components/AIConsultant';
+import LoadingScreen from './components/LoadingScreen';
 
 export default function App() {
   return (
     <div className="min-h-screen">
+      <LoadingScreen />
       <Navbar />
       <main>
         <Hero />

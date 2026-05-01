@@ -14,10 +14,10 @@ export default function Footer() {
             <div className="p-2 bg-secondary rounded-lg text-white">
               <Shield size={24} />
             </div>
-            <span className="text-xl font-bold tracking-tight uppercase">Zanussi Consultoria</span>
+            <span className="text-xl font-bold tracking-tight uppercase">Zanussi Corretora</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Especialistas em proteção e seguros desde 1995. Consultoria em seguros, planos de saúde e proteção financeira para você e sua empresa.
+            Especialistas em proteção e seguros com mais de 30 anos de experiência. Atendimento especializado em seguros, planos de saúde e proteção financeira.
           </p>
           <div className="flex gap-4">
             <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-secondary transition-colors"><Facebook size={20} /></a>
@@ -62,10 +62,10 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-6 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-gray-500 text-xs uppercase tracking-widest font-bold text-center md:text-left">
-          © 2024 Zanussi Consultoria. Todos os direitos reservados.
+          © 2024 Zanussi Corretora. Todos os direitos reservados.
         </p>
         <p className="text-gray-500 text-xs">
-          Tradição e Segurança desde 1995.
+          Tradição e Segurança com mais de 30 anos de mercado.
         </p>
       </div>
     </footer>

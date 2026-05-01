@@ -8,7 +8,7 @@ import { motion } from 'motion/react';
 
 const testimonials = [
   { name: "Robert Silva", role: "Empresário", text: "Fui atendido rápido e fechei na hora o seguro da minha frota. Atendimento nota 10!", rating: 5 },
-  { name: "Ana Paula", role: "Professora", text: "Já renovo meu seguro residencial com a Zanussi Seguros há 5 anos. Confiança total.", rating: 5 },
+  { name: "Ana Paula", role: "Professora", text: "Já renovo meu seguro residencial com a Zanussi Corretora há 5 anos. Confiança total.", rating: 5 },
   { name: "Carlos Mendes", role: "Policial Militar", text: "As condições especiais para quem é da segurança me surpreenderam. Recomendo muito.", rating: 5 }
 ];
 

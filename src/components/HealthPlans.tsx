@@ -72,7 +72,7 @@ export default function HealthPlans() {
           </div>
           
           <div className="mt-12 bg-blue-50 p-6 rounded-2xl border border-blue-100 italic text-gray-600 leading-relaxed">
-            "A Zanussi Seguros nos ajudou a reduzir o custo do nosso plano empresarial em 25% sem perder qualidade no atendimento."
+            "A Zanussi Corretora nos ajudou a reduzir o custo do nosso plano empresarial em 25% sem perder qualidade no atendimento."
             <div className="mt-4 not-italic font-bold text-primary text-sm">— Diretor da TechFlow Solutions</div>
           </div>
         </div>

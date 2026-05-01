@@ -8,7 +8,7 @@ const WHATSAPP_URL = "https://wa.me/5511987207703?text=Olá, vim do chat com a I
 export default function AIConsultant() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: 'user' | 'assistant', content: string }[]>([
-    { role: 'assistant', content: "Olá! Sou a assistente inteligente da Zanussi Seguros. Em que posso te ajudar hoje?" }
+    { role: 'assistant', content: "Olá! Sou a assistente inteligente da Zanussi Corretora. Em que posso te ajudar hoje?" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -34,12 +34,11 @@ export default function AIConsultant() {
       const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || '' });
       const model = "gemini-3-flash-preview";
       
-      const systemInstruction = `Você é a assistente virtual da Zanussi Seguros (atendimento de excelência).
+      const systemInstruction = `Você é a assistente virtual da Zanussi Corretora.
 Seu objetivo é ser extremamente educada, cativante e inteligente.
+A corretora tem mais de 30 anos de experiência e atende em todo o território nacional.
 Você deve tirar dúvidas sobre seguros (Auto, Vida, Residencial, Saúde, Empresarial) de forma clara.
 Sempre que possível, enfatize que, para uma cotação personalizada e as melhores taxas, o cliente deve falar com um consultor humano no WhatsApp.
-FINAL STATEMENT: No final de quase toda resposta, você deve sugerir clicar no botão de WhatsApp para falar com um especialista.
-Mantenha o tom profissional mas acolhedor.
 O número de WhatsApp da corretora é (11) 98720-7703.`;
 
       const contents = [

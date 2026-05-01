@@ -30,11 +30,11 @@ export default function Hero() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight">
-              Sua tranquilidade em primeiro lugar com a <span className="text-secondary">Zanussi Consultoria</span>
+              Sua tranquilidade em primeiro lugar com a <span className="text-secondary">Zanussi Corretora</span>
             </h1>
             
             <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-lg">
-              Consultoria especializada em seguros desde 1995, planos de saúde e proteção financeira para você, sua família ou sua empresa.
+              Consultoria especializada em seguros, planos de saúde e proteção financeira com mais de 30 anos de experiência. Atendimento em todo território nacional.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -80,8 +80,8 @@ export default function Hero() {
             
             {/* Trust badge */}
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl z-20 max-w-[200px]">
-              <div className="text-primary font-bold text-3xl mb-1">29+</div>
-              <div className="text-gray-500 text-xs font-semibold uppercase tracking-wider leading-tight">Anos de experiência no mercado</div>
+              <div className="text-primary font-bold text-3xl mb-1">30+</div>
+              <div className="text-gray-500 text-xs font-semibold uppercase tracking-wider leading-tight">Anos de experiência</div>
             </div>
           </motion.div>
         </div>

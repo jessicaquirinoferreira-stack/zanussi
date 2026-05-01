@@ -9,10 +9,10 @@ import { motion } from 'motion/react';
 const features = [
   { icon: Users, title: "Pós-venda Diferenciado", desc: "Suporte e assessoria completa sobre o perfil do seu contrato." },
   { icon: ShieldCheck, title: "Ética e Transparência", desc: "Trabalhamos com clareza em todas as etapas da cotação." },
-  { icon: Trophy, title: "Solidez desde 1995", desc: "Quase 30 anos de experiência e confiança no mercado." },
+  { icon: Trophy, title: "Mais de 30 anos", desc: "Experiência e confiança no mercado com atendimento em todo o Brasil." },
   { icon: Clock, title: "Agilidade no Atendimento", desc: "Respostas rápidas visando sempre a melhor oferta para você." },
   { icon: Sparkles, title: "Amplo Portfólio", desc: "Variedade de produtos para pessoa física e jurídica." },
-  { icon: Wallet, title: "Consultoria em Seguros", desc: "Análise técnica precisa para proteção financeira real." }
+  { icon: Wallet, title: "Atendimento Nacional", desc: "Consultoria especializada com presença em todo o território nacional." }
 ];
 
 export default function Differentiators() {
@@ -20,7 +20,7 @@ export default function Differentiators() {
     <section id="diferenciais" className="section-padding bg-white">
       <div className="grid lg:grid-cols-3 gap-12 items-center">
         <div className="lg:col-span-1">
-          <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">Por que escolher a Zanussi Consultoria?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">🌎 Por que escolher a Zanussi Corretora?</h2>
           <p className="text-gray-600 mb-8 leading-relaxed text-lg">
             Nossa equipe se diferencia pelo suporte contínuo. Não apenas vendemos, cuidamos do seu patrimônio e saúde com assessoria técnica especializada.
           </p>
